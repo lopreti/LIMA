@@ -1,35 +1,112 @@
-.nav{
-   font-size: 1.5rem;
-   align-items: center;
-   justify-content: center;
-}
-
-body{
-        width: 65vw;
-        border: 1px solid rgb(0, 0, 0);
-        border-style: solid;
-        display: flex;
-        align-items: flex-start;
-        height: 95vh;
-        padding: 3rem;
-}
- header {
-        background-color: rgb(244, 239, 232);
-        width: 60vw;
-        border: 1px solid rgb(0, 0, 0);
-        border-style: solid;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        height: 5vh;
-        padding: 3rem;
- }
-nav {
-    background-color: rgb(206, 205, 205);
-    width: 25vw;
-    height: 5vh;
-    border: 1px solid rgb(0, 0, 0);
-    border-style: solid;
-    display: flex;
- }
-
+html{
+      margin: 0;
+      padding: 0;
+  }
+  body {
+      padding: 20px;
+       background-color: #fbefef;
+  }
+  .body-container {
+      border: 1px solid #000000;
+      padding: 15px;
+      position: relative;
+      min-height: 500px;
+  }
+  .body-label {
+      top: -10px;
+      left: 10px;
+      padding: 2px 8px;
+      font-size: 12px;
+  }
+  .header-container {
+      border: 1px solid #000000;
+      padding: 15px;
+      margin-bottom: 15px;
+      position: relative;
+      height: 40px;
+  }
+  .header-label {
+      top: -10px;
+      left: 10px;
+      padding: 2px 8px;
+      font-size: 12px;
+  }
+  .nav-container {
+      border: 1px solid #000000;
+      padding: 8px;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      width: 100px;
+      height: 20px;
+  }
+  .nav-label {
+      font-size: 10px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 24px;
+  }
+  .main-section-container {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+      height: 300px;
+  }
+  .main-container {
+      border: 1px solid #000000;
+      padding: 15px;
+      flex: 2;
+  }
+  .main-label {
+      top: -10px;
+      left: 10px;
+      padding: 2px 8px;
+      font-size: 12px;
+  }
+  .section-container {
+      border: 1px solid #000000;
+      padding: 10px;
+      height: 80%;
+      position: relative;
+  }
+  .section-label {
+      top: -10px;
+      left: 10px;
+      padding: 2px 8px;
+      font-size: 10px;
+  }
+  .aside-container {
+      border: 1px solid #000000;
+      padding: 15px;
+      flex: 1;
+      position: relative;
+  }
+  .aside-label {
+      top: -10px;
+      left: 10px;
+      padding: 2px 8px;
+      font-size: 12px;
+      text-align: center;
+  }
+  .article-container {
+      border: 1px solid #000000;
+      padding: 8px;
+      margin-bottom: 10px;
+      height: 50px;
+  }
+  .article-label {
+      font-size: 10px;
+      text-align: center;
+      line-height: 44px;
+  }
+  .footer-container {
+      border: 1px solid #000000;
+      padding: 15px;
+      position: relative;
+      height: 60px;
+  }
+  .footer-label {
+      text-align: center;
+      line-height: 30px;
+      font-size: 12px;
+  }
