@@ -1,0 +1,72 @@
+/* Fonte temática */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'MedievalSharp', cursive;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 5000px;
+    box-shadow: 0 0 20px #4caf50;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.dica{
+    font-size: 1em;
+    color: #8a8a8a;
+}
+
+input {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px #4caf50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
